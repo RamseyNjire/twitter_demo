@@ -16,10 +16,17 @@
 
  @import "bulma";
 
+
+
  .navbar-brand .title {
   color: white;
  }
-
+ .is-grouped {
+   padding: 10px 20px;
+  .control {
+    align-self: center;
+  }
+ }
  // round images
  .image {
    border-radius: 50%;
@@ -28,6 +35,7 @@
    }
  }
 
- .notifications:not(:last-child) {
+ .notification:not(:last-child) {
    margin-bottom: 0;
+   border-radius: 0;
  }
